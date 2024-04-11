@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Профиль"
+        android:gravity="center"
+        android:textSize="45sp"/>
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/icon"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:text="Фамилия"
+        android:textSize="35sp"
+        android:layout_marginStart="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:inputType="text"
+        android:hint="Введите фамилию"
+        android:id="@+id/lastName"
+        />
+    <TextView
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:text="Имя"
+        android:textSize="35sp"
+        android:layout_marginStart="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:inputType="text"
+        android:hint="Введите имя"
+        android:id="@+id/name"
+        />
+    <TextView
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:text="Отчество"
+        android:textSize="35sp"
+        android:layout_marginStart="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:inputType="text"
+        android:id="@+id/fatherName"
+        android:hint="Введите отчество"
+        />
+    <TextView
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:text="Возраст"
+        android:textSize="35sp"
+        android:layout_marginStart="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:inputType="number"
+        android:hint="Введите возраст"
+        android:id="@+id/age"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Отправить"
+        android:textSize="35sp"
+        android:backgroundTint="#ff7f7f"
+        android:id="@+id/sendBtn"
+        />
+</LinearLayout>
